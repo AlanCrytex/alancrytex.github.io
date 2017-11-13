@@ -1,0 +1,34 @@
+#-------------------------------
+# General Site Settings
+#-------------------------------
+# Menu Section
+
+menu-left:
+- {title: Home, url: '#'}
+menu-right:
+- {title: Home, url: '#'}
+
+#-------------------------------
+# SEO Section
+
+seo:
+  twitter-creator: 'https://www.twitter.com/example'
+  twitter-site: 'https://www.twitter.com/example'
+  type: 'website'
+  google-analytics: UA-xxxx-1
+
+#-------------------------------
+# Social Icons and URls
+
+social:
+- {icon: 'fa-spotify', color: 'spotify-color', url: 'https://example.com'}
+
+social-url:
+  spotify: https://example.com
+
+#-------------------------------
+# Modified Date
+
+modified-date: September 25, 2017
+
+#-------------------------------
