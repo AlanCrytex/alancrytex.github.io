@@ -15,8 +15,8 @@
 # in the template via {{ site.myvariable }}.
 title: "Alanj2017"
 email: your-email@domain.com
-description: ""
-keywords:
+description: "Making PMVs, AMVs, random VFX videos, contents full of Motion Graphics, CC, and anything else that you can imagine from an editor. For over 7 years."
+keywords: pmv,vgx videos, motion graphics
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: mrdemonwolf

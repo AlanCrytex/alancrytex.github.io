@@ -1,39 +1,28 @@
 <!-- Navbar -->
 <nav class="navbar navbar-default navbar-fixed-top" id="scroll_navbar">
-  <header role="banner">
-    <nav id="navbar-primary" class="navbar" role="navigation">
-      <div class="container-fluid">
-        <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="container">
         <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-primary-collapse">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
+            <button id="ChangeToggle" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                            <div id="navbar-hamburger">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+                            </div>
+                <div id="navbar-close" class="hidden">
+          <span class="glyphicon glyphicon-remove"></span>
         </div>
-        <div class="collapse navbar-collapse" id="navbar-primary-collapse">
-          <ul class="nav navbar-nav">
-            <li class="active">
-              <a href="#">Link</a>
-            </li>
-            <li>
-              <a href="#">Link</a>
-            </li>
-            <li>
-              <a href="#">
-                <img id="logo-navbar-middle" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/32877/logo-thing.png" width="200" alt="Logo Thing main logo">
-              </a>
-            </li>
-            <li>
-              <a href="#">Link</a>
-            </li>
-            <li>
-              <a href="#">Link</a>
-            </li>
-          </ul>
+      </button>
+            <a class="navbar-brand navbar-logo logo-desktop" href="/"><img alt="{{ site.title }}" src="{{ site.url }}{{ site.baseurl }}/assets/images/logo_text.png"></a>
+            <a class="navbar-brand navbar-logo logo-mobile" href="/"><img alt="{{ site.title }}" src="{{ site..url }}{{ site.baseurl }}/assets/images/logo.png"></a>
         </div>
-      </div>
-    </nav>
-  </header>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">{% for item in site.data.settings.menu %}
+                <li>
+                    <a href="{{ item.url }}" alt="{{ item.title }}">{{ item.title }}</a>
+                </li>{% endfor %}
+            </ul>
+        </div>
+    </div>
 </nav>

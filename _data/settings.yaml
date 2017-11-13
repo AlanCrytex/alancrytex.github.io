@@ -3,17 +3,17 @@
 #-------------------------------
 # Menu Section
 
-menu-left:
-- {title: Home, url: '#'}
-menu-right:
-- {title: Home, url: '#'}
-
+menu:
+  - {title: Home, url: '#'}
+  - {title: Examples, url: '#'}
+  - {title: Work, url: '#'}
+  - {title: Contact, url: '#'}
 #-------------------------------
 # SEO Section
 
 seo:
-  twitter-creator: 'https://www.twitter.com/example'
-  twitter-site: 'https://www.twitter.com/example'
+  twitter-creator: 'https://www.twitter.com/alanj2007games'
+  twitter-site: 'https://www.twitter.com/alanj2007games'
   type: 'website'
   google-analytics: UA-xxxx-1
 
@@ -21,7 +21,8 @@ seo:
 # Social Icons and URls
 
 social:
-- {icon: 'fa-spotify', color: 'spotify-color', url: 'https://example.com'}
+  - {icon: 'fa-youtube-play', color: 'youtube-color', url: 'https://www.youtube.com/AlanCrytex'}
+  - {icon: 'fa-twitter', color: 'twitter-color', url: 'https://twitter.com/Alanj2007Games'}
 
 social-url:
   spotify: https://example.com
