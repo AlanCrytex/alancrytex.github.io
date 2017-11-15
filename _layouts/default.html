@@ -108,12 +108,12 @@
         <!-- Legal Infos -->
         <div class="col-md-4 col-sm-12">
           <div class="footer-legal">
-            <a href="{{ site.url }}{{ site.baseurl }}/legal/privacy-statement/">Privacy Statement</a> -
+            <a href="{{ site.url }}{{ site.baseurl }}/legal/privacy-statement/">Privacy Statement</a> |
             <a href="{{ site.url }}{{ site.baseurl }}/legal/terms-of-service/">Terms of Service</a>
           </div>
         </div>
         <!-- Copyright -->
-        <div class="col-md-4 col-sm-12">
+        <div class="col-md-5 col-sm-12">
           <div class="footer-copyright"> Copyright ©
             <script>
               document.write("" + new Date().getFullYear());
@@ -123,7 +123,7 @@
           </div>
         </div>
         <!-- Social Links  -->
-        <div class="col-md-4 col-sm-12 footer-social ">{% for item in site.data.settings.social %}
+        <div class="col-md-3 col-sm-12 footer-social ">{% for item in site.data.settings.social %}
           <li>
             <a href="{{ item.url }}">
               <i class="fa {{ item.icon }} social-icon {{ item.class }}" aria-hidden="true"></i>

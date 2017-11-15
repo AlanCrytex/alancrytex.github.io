@@ -1,7 +1,7 @@
 {
-  "name": "jekyllb-boilerplate",
+  "name": "alancrytex.github.io",
   "version": "1.0.0",
-  "description": "jekyllb-boilerplato",
+  "description": "alancrytex.github.io",
   "main": "gulpfile.js",
   "scripts": {
     "preinstall": "bundle install",
@@ -36,7 +36,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/MrDemonWolf/jekyllb-boilerplate.git"
+    "url": "https://github.com/AlanCrytex/alancrytex.github.io.git"
   },
   "keywords": [
     "jekyll",
@@ -48,8 +48,8 @@
     "Webpack"
   ],
   "bugs": {
-    "url": "https://github.com/MrDemonWolf/jekyllb-boilerplate/issues"
+    "url": "https://github.com/AlanCrytex/alancrytex.github.io/issues"
   },
-  "homepage": "https://github.com/MrDemonWolf/jekyllb-boilerplate",
+  "homepage": "https://github.com/AlanCrytex/alancrytex.github.io",
   "dependencies": {}
 }
