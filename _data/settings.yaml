@@ -21,8 +21,8 @@ seo:
 # Social Icons and URls
 
 social:
-  - {icon: 'fa-youtube-play', color: 'youtube-color', url: 'https://www.youtube.com/AlanCrytex'}
-  - {icon: 'fa-twitter', color: 'twitter-color', url: 'https://twitter.com/Alanj2007Games'}
+  - {icon: 'fa-youtube-play', class: 'youtube-color youtube-color_border', url: 'https://www.youtube.com/AlanCrytex'}
+  - {icon: 'fa-twitter', class: 'twitter-color twitter-color_border', url: 'https://twitter.com/Alanj2007Games'}
 
 social-url:
   spotify: https://example.com
