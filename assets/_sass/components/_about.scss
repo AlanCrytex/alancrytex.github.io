@@ -1,0 +1,30 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the blank component.
+// -----------------------------------------------------------------------------
+.about {
+    background-color: #35445E;
+
+    .header {
+        font-family: $main-font;
+        font-size: 1.75em;
+        color: #ffffff;
+    }
+
+    .sub_header {
+        font-family: $main-font;
+        font-size: 1.15em;
+        color: #EBEBEB;
+    }
+
+    .text {
+        font-family: $main-font;
+        font-size: 1em;
+        color: #EBEBEB;
+    }
+
+    .container {
+        max-width: 50%;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+}

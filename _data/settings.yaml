@@ -4,8 +4,8 @@
 # Menu Section
 
 menu:
-  - {title: Home, url: '#'}
-  - {title: Examples, url: '#'}
+  - {title: Home, url: ''}
+  - {title: Examples, url: '#Examples'}
   - {title: Work, url: '#'}
   - {title: Contact, url: '#'}
 #-------------------------------
