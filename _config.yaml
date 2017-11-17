@@ -21,7 +21,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://alancrytex.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: mrdemonwolf
 encoding: UTF-8
-brand-color: '#00328d'
+brand-color: '#354f5e'
 
 # Build settings
 markdown: kramdown
