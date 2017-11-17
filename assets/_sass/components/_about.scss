@@ -11,14 +11,14 @@
     }
 
     .sub_header {
-        font-family: $main-font;
+        font-family: $second-font;
         font-size: 1.15em;
         color: #EBEBEB;
         font-style: italic;
     }
 
     .text {
-        font-family: $main-font;
+        font-family: $second-font;
         font-size: 1em;
         color: #EBEBEB;
     }
@@ -29,6 +29,15 @@
         padding-bottom: 50px;
     }
 }
+
+@media (max-width: 768px) {
+    .about {
+        .container {
+            max-width: 90%;
+        }
+    }
+}
+
 .clouds {
     width: 200x;
     height: 300px;
@@ -43,7 +52,6 @@
     /* Animation shorthand syntax order: name, duration, timing-function, delay, iteration-count, direction, fill-mode */
     animation: move 20s linear infinite;
 }
-
 
 @keyframes move {
     from {
