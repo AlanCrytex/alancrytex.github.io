@@ -4,10 +4,10 @@
 # Menu Section
 
 menu:
-  - {title: Home, url: ''}
-  - {title: Examples, url: '#Examples'}
-  - {title: Work, url: '#'}
-  - {title: Contact, url: '#'}
+  - {title: Home, url: '/'}
+  - {title: Examples, url: '#examples'}
+  - {title: Work, url: '/work/'}
+  - {title: Contact, url: '#conect'}
 #-------------------------------
 # SEO Section
 
