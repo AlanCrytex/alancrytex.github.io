@@ -8,10 +8,10 @@
     </svg> -->
   <div class="container">
     <div class="header text-center">
-      ABOUT ME
+      {{ site.data.settings.about-text.header }}
     </div>
     <div class="sub_header text-center">
-      Filmmaker . Director . Motion Designer .VFX Editor
+      {{ site.data.settings.about-text.sub-header}}
     </div>
     <div class="text text-justify">
       {% for section in site.data.settings.about %}
