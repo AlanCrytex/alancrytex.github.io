@@ -1,51 +1,66 @@
 <div id="contact">
   <div class="container contact">
-    <form role="form" id="contact-form" class="contact-form" action="https://formspree.io/{{ site.email }}" method="POST">
+    <div class="header text-center">
+      Contact me
+    </div>
+    <form role="form" data-toggle="validator" id="contact-form" class="contact-form" method="POST">
       <div class="row">
         <div class="col-md-6">
           <div class="form-group">
-            <input type="text" class="form-control" name="Name" autocomplete="off" id="Name" placeholder="Name *">
+            <input type="text" class="form-control" name="Name" autocomplete="off" id="Name" placeholder="Name *" data-error="Pleaase enter your name."
+              required>
+            <div class="help-block with-errors"></div>
           </div>
         </div>
         <div class="col-md-6">
           <div class="form-group">
-            <input type="email" class="form-control" name="email" autocomplete="off" id="email" placeholder="E-mail *">
+            <input type="email" class="form-control" name="email" autocomplete="off" id="email" placeholder="E-mail *" data-error="Please make sure your email is either vaild or is filled in."
+              required>
+            <div class="help-block with-errors"></div>
           </div>
         </div>
       </div>
       <div class="row">
         <div class="col-md-12">
-          <div class="contact-checkbox">
-            <div class="contact-checkbox-primary">
+          <div class="form-group">
+            <div class="contact-checkbox">
+              <div class="sub-header">
+                Which package do you want?
+              </div>
               <div class="contact-checkbox-primary">
-                <input type="checkbox" name="basic-videos-option" id="checkbox2" checked/>
-                <label for="checkbox2">Basic Videos Option Simple cutting of videos perhaps, subtitling, texting, simpler effects would go down
-                  $20 per min, which is $40 - $80 per full video!
+                <div class="contact-checkbox-primary">
+                  <input type="checkbox" name="basic-videos-option" id="checkbox2" checked/>
+                  <label for="checkbox2">Basic Videos Option Simple cutting of videos perhaps, subtitling, texting, simpler effects would go down
+                    $20 per min, which is $40 - $80 per full video!
+                  </label>
+                </div>
+                <input type="checkbox" name="advanced-videos-option" id="checkbox1" />
+                <label for="checkbox1">Advanced Videos Option I do think it varies a lot, it depends on how your approach is. It can go around $60
+                  per min. So around $120 - $240 for the full video if you are going for an Advanced Motion Graphics, Camera
+                  Work, 2.5D Effect, 3D Effects, Color Grading and all those modern stuff.
                 </label>
               </div>
-              <input type="checkbox" name="advanced-videos-option" id="checkbox1" />
-              <label for="checkbox1">Advanced Videos Option I do think it varies a lot, it depends on how your approach is. It can go around $60
-                per min. So around $120 - $240 for the full video if you are going for an Advanced Motion Graphics, Camera
-                Work, 2.5D Effect, 3D Effects, Color Grading and all those modern stuff.
-              </label>
-            </div>
-            <div class="contact-checkbox-primary">
-              <input type="checkbox" name="hour-videos-option" id="checkbox3" />
-              <label for="checkbox3">You can pay hourly too if you prefer (for the advanced option), which my rate is $10/hr so you can get a proper
-                price to it, means that the less or more complicated it gets, the shorter/longer the work is, the less/more
-                prices. You get the idea!
-              </label>
-            </div>
-            <div class="contact-checkbox-primary">
-              <input type="checkbox" name="chorus-videos-option" id="checkbox4" />
-              <label for="checkbox4">For Chorus Music Video like this (there will be more examples in the future), it'd be on fixed number which
-                is $35 per min</label>
+              <div class="contact-checkbox-primary">
+                <input type="checkbox" name="hour-videos-option" id="checkbox3" />
+                <label for="checkbox3">You can pay hourly too if you prefer (for the advanced option), which my rate is $10/hr so you can get a
+                  proper price to it, means that the less or more complicated it gets, the shorter/longer the work is, the
+                  less/more prices. You get the idea!
+                </label>
+              </div>
+              <div class="contact-checkbox-primary">
+                <input type="checkbox" name="chorus-videos-option" id="checkbox4" />
+                <label for="checkbox4">For Chorus Music Video like this (there will be more examples in the future), it'd be on fixed number which
+                  is $35 per min</label>
+              </div>
             </div>
           </div>
         </div>
       </div>
       <div class="row details">
         <div class="col-md-12">
+          <div class="sub-header">
+            Any more details or info you want to add?
+          </div>
           <div class="form-group">
             <textarea class="form-control textarea" rows="3" name="Message" id="Message" placeholder="Details"></textarea>
           </div>

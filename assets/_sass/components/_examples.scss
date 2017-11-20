@@ -56,7 +56,26 @@
     top: 0;
     left: 0;
 }
+
 #examples {
-  padding-top: 45px;
-  padding-bottom: 45px;
+    padding-top: 45px;
+    padding-bottom: 45px;
+}
+
+.examples {
+    .header {
+        font-family: $main-font;
+        color: $brand-color;
+        font-size: 2.25em;
+        padding-bottom: 15px;
+    }
+}
+
+@media (max-width: 768px) {
+    .examples {
+        .container {
+            padding-left: 18px;
+            padding-right: 18px;
+        }
+    }
 }
