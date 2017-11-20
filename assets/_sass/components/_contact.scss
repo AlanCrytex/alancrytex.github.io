@@ -23,22 +23,24 @@
     border-color: #eee;
     height: 49px;
 
-    :focus {
+    &:focus {
         box-shadow: none;
         border-color: #00b09c;
     }
 }
+
 .button {
-  padding: 18px;
+    padding: 18px;
 }
+
 .main-btn {
-    background: $brand-color;
-    border-color: $brand-color-alt;
-    color: #fff;
+    background: $brand-color-alt;
+    border-color: $brand-color;
+    color: #fff !important;
 
     :hover {
-        background:lighten($brand-color, 0.15);
-        color: #fff;
+        background: lighten($brand-color, 0.15);
+        color: #fff !important;
     }
 }
 
@@ -121,7 +123,7 @@
         input[type="checkbox"] {
             &:checked ~ label:before {
                 color: #fff;
-                background-color: #337ab7;
+                background-color: $brand-color;
             }
         }
     }
