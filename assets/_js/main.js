@@ -61,10 +61,3 @@ $(document).ready(function () {
   };
 
 })();
-
-// Carousel Auto-Cycle
-$(document).ready(function () {
-  $('.carousel').carousel({
-    interval: 10000
-  })
-});
