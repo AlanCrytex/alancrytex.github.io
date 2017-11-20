@@ -3,33 +3,43 @@
 // -----------------------------------------------------------------------------
 .contact-form {
     margin-top: 15px;
-}
 
-.contact-form .textarea {
-    min-height: 220px;
-    resize: none;
+    .textarea {
+        min-height: 220px;
+        resize: none;
+    }
+
+    .form-group {
+        margin-bottom: 0px;
+    }
+
+    .details {
+        padding-top: 20px;
+    }
 }
 
 .form-control {
     box-shadow: none;
     border-color: #eee;
     height: 49px;
-}
 
-.form-control:focus {
-    box-shadow: none;
-    border-color: #00b09c;
+    :focus {
+        box-shadow: none;
+        border-color: #00b09c;
+    }
 }
-
+.button {
+  padding: 18px;
+}
 .main-btn {
-    background: #00b09c;
-    border-color: #00b09c;
+    background: $brand-color;
+    border-color: $brand-color-alt;
     color: #fff;
-}
 
-.main-btn:hover {
-    background: #00a491;
-    color: #fff;
+    :hover {
+        background:lighten($brand-color, 0.15);
+        color: #fff;
+    }
 }
 
 .contact-checkbox {
@@ -76,8 +86,6 @@
             color: #888;
 
             &:before {
-                content: '\2714';
-                margin: 0 auto;
                 text-indent: .9em;
                 color: #C2C2C2;
             }
@@ -87,8 +95,6 @@
             color: #777;
 
             &:before {
-                content: '\2714';
-                margin: 0 auto;
                 text-indent: .9em;
                 color: #333;
                 background-color: #ccc;
@@ -157,6 +163,16 @@
                 color: #fff;
                 background-color: #5bc0de;
             }
+        }
+    }
+}
+
+@media (max-width: 768px) {}
+
+@media (max-width: 991px) {
+    .contact-form {
+        .form-group {
+            padding-top: 15px;
         }
     }
 }
