@@ -12,8 +12,8 @@ menu:
 # SEO Section
 
 seo:
-  twitter-creator: 'https://www.twitter.com/alanj2007games'
-  twitter-site: 'https://www.twitter.com/alanj2007games'
+  twitter-creator: '@alanj2007games'
+  twitter-site: '@alanj2007games'
   type: 'website'
   google-analytics: UA-xxxx-1
 
