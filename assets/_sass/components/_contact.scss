@@ -27,7 +27,7 @@
 
 .form-control {
     box-shadow: none;
-    border-color: #eee;
+    border-color: rgb(88, 88, 88);
     height: 49px;
 
     &:focus {
@@ -60,7 +60,7 @@
     label {
         width: 100%;
         border-radius: 3px;
-        border: 1px solid #D1D3D4;
+        border: 1px solid rgb(88, 88, 88);
     }
 
     input[type="radio"],
@@ -88,7 +88,7 @@
                     left: 0;
                     content: '';
                     width: 2.5em;
-                    background: #D1D3D4;
+                    background: rgb(88, 88, 88);
                     border-radius: 3px 0 0 3px;
                 }
             }
@@ -99,7 +99,7 @@
 
             &:before {
                 text-indent: .9em;
-                color: #C2C2C2;
+                color: rgb(88, 88, 88);
             }
         }
 
@@ -109,12 +109,12 @@
             &:before {
                 text-indent: .9em;
                 color: #333;
-                background-color: #ccc;
+                background-color: rgb(88, 88, 88);
             }
         }
 
         &:focus ~ label:before {
-            box-shadow: 0 0 0 3px #999;
+            box-shadow: 0 0 0 3px rgb(88, 88, 88);
         }
     }
 
@@ -123,7 +123,7 @@
         input[type="checkbox"] {
             &:checked ~ label:before {
                 color: #333;
-                background-color: #ccc;
+                background-color: rgb(88, 88, 88);
             }
         }
     }
@@ -201,4 +201,8 @@
         color: $brand-color-alt;
         font-size: 1.25em;
     }
+}
+
+#contact {
+    background-color: $sectionBackground;
 }

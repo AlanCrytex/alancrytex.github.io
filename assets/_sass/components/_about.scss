@@ -2,8 +2,6 @@
 // This file contains all styles related to the about component.
 // -----------------------------------------------------------------------------
 .about {
-    background-color: #35445E;
-
     .header {
         font-family: $main-font;
         font-size: 2em;
@@ -38,6 +36,10 @@
     }
 }
 
+#about {
+    background-color: $sectionBackground;
+}
+
 // .clouds {
 //     width: 200x;
 //     height: 300px;
@@ -49,7 +51,7 @@
 //     z-index: 100;
 //     fill: #eee;
 
-//     /* Animation shorthand syntax order: name, duration, timing-function, delay, iteration-count, direction, fill-mode */
+//     /* Animation shorthand syntax order: name, duration, timing-function, delay, iteration-count, direction, fill-mode
 //     animation: move 20s linear infinite;
 // }
 
