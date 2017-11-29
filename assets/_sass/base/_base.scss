@@ -21,17 +21,6 @@ body {
     padding: 0 0 60px;
 }
 
-/* Set the fixed height of the footer here */
-#footer {
-    height: 66px;
-}
-
-@media (max-width: 768px) {
-    #footer {
-        height: 140px;
-    }
-}
-
 .img-circle {
     border-radius: 50%;
 }

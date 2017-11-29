@@ -1,0 +1,57 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the work component.
+// -----------------------------------------------------------------------------
+.work {
+    .gallery {
+        display: inline-block;
+    }
+
+    .title {
+        font-size: 2em;
+        font-family: $main-font;
+        color: $brand-color;
+        font-weight: 500;
+        margin: 0px;
+    }
+
+    .work_filter {
+        padding-bottom: 10px;
+    }
+
+    .work_filter-button {
+        font-size: 1.15em;
+        border: 1px solid $brand-color-alt;
+        border-radius: 5px;
+        text-align: center;
+        color: $brand-color;
+
+        &:hover {
+            font-size: 1.15em;
+            border: 1px solid $brand-color-alt;
+            border-radius: 5px;
+            text-align: center;
+            color: #ffffff;
+            background-color: $brand-color-alt;
+        }
+    }
+
+    .btn-default {
+        &:active {
+            .work_gallery_filter-button {
+                &:active {
+                    background-color: $brand-color-alt;
+                    color: #ffffff;
+                }
+            }
+        }
+    }
+
+    .work_gallery_product {
+        margin-bottom: 30px;
+
+        a > img:hover {
+            border: 0px solid rgba($brand-color-alt, 0.75);
+            transition: all 1s;
+        }
+    }
+}

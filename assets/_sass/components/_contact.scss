@@ -95,7 +95,7 @@
         }
 
         &:hover:not(:checked) ~ label {
-            color: rgb(70, 70, 70);
+            color: #35445e;
 
             &:before {
                 text-indent: .9em;
@@ -104,7 +104,7 @@
         }
 
         &:checked ~ label {
-            color: rgb(70, 70, 70);
+            color: #35445e;
 
             &:before {
                 text-indent: .9em;
@@ -179,7 +179,15 @@
     }
 }
 
-@media (max-width: 768px) {}
+@media (max-width: 768px) {
+    .contact-form {
+        .details {
+            .sub-header {
+                padding-bottom: 0px;
+            }
+        }
+    }
+}
 
 @media (max-width: 991px) {
     .contact-form {
@@ -205,4 +213,6 @@
 
 #contact {
     background-color: $sectionBackground-light;
+    padding-top: 45px;
+    padding-bottom: 45px;
 }

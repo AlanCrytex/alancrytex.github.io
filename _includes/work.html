@@ -1,3 +1,21 @@
-<div class="container">
-
+<!-- work gallery -->
+<div class="container work">
+  <div class="row">
+    <div class="gallery col-lg-12 col-md-12 col-sm-12 col-xs-12">
+      <h1 class="title text-center">Past works</h1>
+    </div>
+    <div align="center" class="work_filter">
+      {% for item in site.data.settings.work_gallery-fliter %}
+      <button class="btn btn-default work_filter-button" data-filter="{{ item.name }}">{{ item.title}}</button>{% endfor %}
+    </div>
+    <br/>
+  </div>
+  {% for item in site.data.settings.work_gallery-work %}
+  <div class="work_gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter {{ item.fliter }}">
+    <!-- Video wrapper -->
+    <div class="youtube" data-embed="{{ item.video-id }}">
+      <!-- the "play" button -->
+      <div class="play-button"></div>
+    </div>
+  </div>{% endfor %}
 </div>

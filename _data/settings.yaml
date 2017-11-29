@@ -29,12 +29,30 @@ about:
 
 #-------------------------------
 # Examples
+
 examples:
   - {video-id: qeTs05gFkT0}
   - {video-id: 7CJwb8FqaMs}
   - {video-id: e8wsfvgAG0A}
   - {video-id: tvvBZUwAcbo}
+
 #-------------------------------
+# works Gallery Section
+# Filter
+
+work_gallery-fliter:
+- {title: 'All', name: 'all'}
+- {title: 'Clients', name: 'clients'}
+- {title: 'Personal ', name: 'personal'}
+
+#Make sure  put images in the /img/work/thumbnails  folder.
+work_gallery-work:
+- {fliter: 'clients',  video-id: 'qeTs05gFkT0'}
+- {fliter: 'clients',  video-id: '7CJwb8FqaMs'}
+- {fliter: 'clients',  video-id: 'tvvBZUwAcbo'}
+- {fliter: 'clients',  video-id: 'e8wsfvgAG0A'}
+
+#------------------------------
 # Social Icons and URls
 
 social:
@@ -42,8 +60,8 @@ social:
   - {icon: 'fa-twitter', class: 'twitter-color twitter-color_border', url: 'https://twitter.com/Alanj2007Games'}
 
 social-url:
-  spotify: https://example.com
-
+  youtube: https://www.youtube.com/AlanCrytex
+  twitter: https://twitter.com/Alanj2007Games
 #-------------------------------
 # Modified Date
 
