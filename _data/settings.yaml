@@ -7,7 +7,7 @@ menu:
   - {title: Home, url: '/'}
   - {title: Examples, url: '#examples'}
   # - {title: Work, url: '/work/'}
-  - {title: Contact, url: '#conect'}
+  - {title: Contact, url: '#contact'}
 #-------------------------------
 # SEO Section
 
