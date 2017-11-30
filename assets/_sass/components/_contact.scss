@@ -5,7 +5,7 @@
     margin-top: 15px;
 
     .textarea {
-        min-height: 220px;
+        min-height: 150px;
         resize: none;
     }
 
@@ -15,13 +15,13 @@
 
     .details {
         .sub-header {
-            padding-top: 20px;
-            padding-bottom: 20px;
+            padding-top: 18px;
+            padding-bottom: 18px;
         }
     }
 
     .checkboxs {
-        padding-top: 20px;
+        padding-top: 12px;
     }
 }
 
@@ -202,6 +202,7 @@
         font-family: $main-font;
         color: $brand-color;
         font-size: 2.15em;
+        padding-bottom: 8px;
     }
 
     .sub-header {
@@ -213,6 +214,6 @@
 
 #contact {
     background-color: $sectionBackground-light;
-    padding-top: 45px;
-    padding-bottom: 45px;
+    padding-top: 38px;
+    padding-bottom: 38px;
 }
