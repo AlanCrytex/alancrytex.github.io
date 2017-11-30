@@ -1,21 +1,21 @@
 <div id="contact">
   <div class="container contact">
     <div class="header text-center">
-      Contact me
+      {{ site.data.settings.contact-header }}
     </div>
     <form role="form" data-toggle="validator" id="contact-form" class="contact-form" action="https://formspree.io/{{ site.email }}"
       method="POST">
       <div class="row">
         <div class="col-md-6">
           <div class="form-group">
-            <input type="text" class="form-control" name="Name" autocomplete="off" id="Name" placeholder="Name *" data-error="{{ site.data.settings.contact-name.data-error }}"
+            <input type="text" class="form-control" name="Name" autocomplete="off" id="Name" placeholder="{{ site.data.settings.contact-name.placeholder }}" data-error="{{ site.data.settings.contact-name.data-error }}"
               required>
             <div class="help-block with-errors"></div>
           </div>
         </div>
         <div class="col-md-6">
           <div class="form-group">
-            <input type="email" class="form-control" name="Email" autocomplete="off" id="email" placeholder="E-mail *" data-error="{{ site.data.settings.contact-email.data-error }}"
+            <input type="email" class="form-control" name="Email" autocomplete="off" id="email" placeholder="{{ site.data.settings.contact-email.placeholder }}" data-error="{{ site.data.settings.contact-email.data-error }}"
               required>
             <div class="help-block with-errors"></div>
           </div>
@@ -43,10 +43,10 @@
       <div class="row details">
         <div class="col-md-12">
           <div class="sub-header">
-            Any more details or info you want to add?
+            {{ site.data.settings.contact-details.header }}
           </div>
           <div class="form-group">
-            <textarea class="form-control textarea" rows="3" name="Message" id="Message" placeholder="Details"></textarea>
+            <textarea class="form-control textarea" rows="3" name="{{ site.data.settings.contact-details.name }}" id="Message" placeholder="{{ site.data.settings.contact-details.placeholder }}"></textarea>
           </div>
         </div>
       </div>
