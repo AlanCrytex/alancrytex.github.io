@@ -24,8 +24,9 @@ about-text:
   sub-header: Filmmaker . Director . Motion Designer .VFX Editor
 
 about:
- - "I do PMVs, AMVs, random VFX videos, contents full of Motion Graphics, CC, and anything else that you can imagine from an editor. I have 7 years involvement in making visual effects and 2 years of motion designing. I separate them both so you wouldn't expect me to be so professional at everything."
- - "I utilize both of my different abilities to make an exceptional outcome, and I guarantee you this efficacy for the content that I'll be making for myself and the clients! I have worked with several people. I have done various commercial music videos, motion designing work throughout years and I do believe that I can do your required work as intended!"
+ - "Hello. My name is Alan and I am known by the name. My full persona name is "Alan Crytex". I am a freelance VFX Editor and I have several years of experiences, working alone and with clients."
+ - "My contents are heavily based on Motion Graphics and Live-Action and I tend to go onto random routes making some obscure videos."
+ - "I am trying my best to improve my work and at the end produced some visually appealing projects for myself and for the clients who are interested working with me!"
 
 #-------------------------------
 # Examples
@@ -59,6 +60,19 @@ work_gallery-work:
 - {fliter: 'personal',  video-id: '7CJwb8FqaMs'}
 - {fliter: 'personal',  video-id: 'qeTs05gFkT0'}
 - {fliter: 'personal',  video-id: '2VHgpHHtW_U'}
+
+#------------------------------
+# Contact
+
+contact-name:
+  data-error: Pleaase enter your name.
+contact-email:
+  data-error: Please make sure your email is either vaild or is filled in.
+contact-packages-header: Which package do you want?
+contact-packages:
+  - {checkbox-number: '1', name: basic-videos-option, description: 'Basic Package - If you ever need subtitling, some text work or in general simpler effects for a music video, the price is $10 per min! ($6/hr rate)', checked: checked }
+  - {checkbox-number: '2', name: advanced-videos-option, description: 'Advanced Package - I will be helping you produce a music video that is strongly based on some Motion Graphics, Typography, 3D Camera Work, Color Grading and much more. It depends on your approach, it can go $60 per min ($10/hr rate)', checked: }
+  - {checkbox-number: '3', name: baschorusc-videos-option, description: 'Chorus MV Package - It would be on a fixed number which is $35 per min!', checked: }
 
 #------------------------------
 # Social Icons and URls

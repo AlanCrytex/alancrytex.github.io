@@ -8,14 +8,14 @@
       <div class="row">
         <div class="col-md-6">
           <div class="form-group">
-            <input type="text" class="form-control" name="Name" autocomplete="off" id="Name" placeholder="Name *" data-error="Pleaase enter your name."
+            <input type="text" class="form-control" name="Name" autocomplete="off" id="Name" placeholder="Name *" data-error="{{ site.data.settings.contact-name.data-error }}"
               required>
             <div class="help-block with-errors"></div>
           </div>
         </div>
         <div class="col-md-6">
           <div class="form-group">
-            <input type="email" class="form-control" name="Email" autocomplete="off" id="email" placeholder="E-mail *" data-error="Please make sure your email is either vaild or is filled in."
+            <input type="email" class="form-control" name="Email" autocomplete="off" id="email" placeholder="E-mail *" data-error="{{ site.data.settings.contact-email.data-error }}"
               required>
             <div class="help-block with-errors"></div>
           </div>
@@ -26,25 +26,15 @@
           <div class="form-group checkboxs">
             <div class="contact-checkbox">
               <div class="sub-header">
-                Which package do you want?
+                {{ site.data.settings.contact-packages-header }}
               </div>
               <div class="contact-checkbox-primary">
+                {% for item in site.data.settings.contact-packages %}
                 <div class="contact-checkbox-primary">
-                  <input type="checkbox" name="basic-videos-option" id="checkbox1" checked/>
-                  <label for="checkbox1">Basic Package - If you ever need subtitling, some text work or in general simpler effects for a music video,
-                    the price is $10 per min! ($6/hr rate)
+                  <input type="checkbox" name="{{ item.name }}" id="checkbox{{ item.checkbox-number }}" {{ item.checked}}/>
+                  <label for="checkbox{{ item.checkbox-number }}">{{ item.description }}
                   </label>
-                </div>
-                <input type="checkbox" name="advanced-videos-option" id="checkbox2" />
-                <label for="checkbox2">Advanced Package - I will be helping you produce a music video that is strongly based on some Motion Graphics,
-                  Typography, 3D Camera Work, Color Grading and much more. It depends on your approach, it can go $60 per
-                  min ($10/hr rate)
-                </label>
-              </div>
-              <div class="contact-checkbox-primary">
-                <input type="checkbox" name="chorus-videos-option" id="checkbox3" />
-                <label for="checkbox3">Chorus MV Package - It would be on a fixed number which is $35 per min!
-                </label>
+                </div>{% endfor %}
               </div>
             </div>
           </div>
