@@ -86,10 +86,6 @@ $(document).ready(function () {
   $(this).addClass("active");
 
 });
-// Contact form conditional
 $(document).ready(function () {
-
-  var contactform = false;
-
-
+  $('.conditional').conditionize();
 });

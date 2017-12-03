@@ -13,13 +13,6 @@
         margin-bottom: 0px;
     }
 
-    .details {
-        .sub-header {
-            padding-top: 18px;
-            padding-bottom: 18px;
-        }
-    }
-
     .radio-custom input[type="radio"] {
         + label::after {
             background-color: $brand-color;
@@ -46,12 +39,12 @@
             color: #fff;
         }
     }
-    label {
-    font-family: $main-font;
-    font-size: 1.10em;
-    color: #000000;
-}
 
+    label {
+        font-family: $main-font;
+        font-size: 1.10em;
+        color: #000000;
+    }
 }
 
 .form-control {
@@ -346,16 +339,6 @@
 
         &::after {
             background-color: #5cb85c;
-        }
-    }
-}
-
-@media (max-width: 768px) {
-    .contact-form {
-        .details {
-            .sub-header {
-                padding-bottom: 0px;
-            }
         }
     }
 }

@@ -26,11 +26,11 @@
           <div class="form-group">
             <div class="sub-header">Would you like to pick a package?</div>
             <div class="radio radio-custom radio-inline">
-              <input type="radio" id="inlineRadio1" value="option1" name="radioInline">
-              <label for="inlineRadio1">Yes.</label>
+              <input type="radio" id="inlineRadio1" value="yes" name="package-qustion">
+              <label for="inlineRadio1">Yes</label>
             </div>
             <div class="radio radio-custom radio-inline">
-              <input type="radio" id="inlineRadio2" value="option" name="radioInline" checked="">
+              <input type="radio" id="inlineRadio2" value="no" name="package-qustion" checked="">
               <label for="inlineRadio2">No</label>
             </div>
           </div>
@@ -38,35 +38,34 @@
       </div>
       <div class="row">
         <div class="col-md-12">
-          <div class="form-group">
-            <div class="sub-header">
-              {{ site.data.settings.contact-packages-header }}
+          <div class="conditional" data-cond-option="package-qustion" data-cond-value="yes">
+            <div class="form-group">
+              <div class="sub-header">
+                {{ site.data.settings.contact-packages-header }}
+              </div>
+              {% for item in site.data.settings.contact-packages %}
+              <div class="checkbox checkbox-custom">
+                <input type="checkbox" name="{{ item.name }} packages" id="checkbox{{ item.checkbox-number }}" {{ item.checked}}>
+                <label for="checkbox{{ item.checkbox-number }}">{{ item.description }}
+                </label>
+              </div>
+              {% endfor %}
             </div>
-            {% for item in site.data.settings.contact-packages %}
-            <div class="checkbox checkbox-custom">
-              <input type="checkbox" name="{{ item.name }}" id="checkbox{{ item.checkbox-number }}" {{ item.checked}}>
-              <label for="checkbox{{ item.checkbox-number }}">{{ item.description }}
-              </label>
-            </div>
-            {% endfor %}
           </div>
         </div>
       </div>
-      <div class="row details">
+      <div class="row message">
         <div class="col-md-12">
-          <div class="sub-header">
-            {{ site.data.settings.contact-details.header }}
-          </div>
           <div class="form-group">
-            <textarea class="form-control textarea" rows="3" name="{{ site.data.settings.contact-details.name }}" id="Message" placeholder="{{ site.data.settings.contact-details.placeholder }}"></textarea>
+            <textarea class="form-control textarea" rows="3" name="{{ site.data.settings.contact-messages.name }}" id="Details" placeholder="{{ site.data.settings.contact-messages.placeholder }}"></textarea>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-3 col-md-offet-9 button">
+            <button type="submit" class="btn  btn-block main-btn">Send a message</button>
           </div>
         </div>
       </div>
-      <div class="row">
-        <div class="col-md-3 col-md-offet-9 button">
-          <button type="submit" class="btn  btn-block main-btn">Send a message</button>
-        </div>
-      </div>
-    </form>
   </div>
+  </form>
 </div>

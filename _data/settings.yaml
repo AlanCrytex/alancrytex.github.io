@@ -86,6 +86,10 @@ contact-details:
   name: Details
   placeholder: Details
 
+contact-message:
+  name: Message
+  placeholder: Message
+
 #------------------------------
 # Social Icons and URls
 
