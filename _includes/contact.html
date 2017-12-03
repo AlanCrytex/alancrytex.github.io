@@ -8,35 +8,47 @@
       <div class="row">
         <div class="col-md-6">
           <div class="form-group">
-            <input type="text" class="form-control" name="Name" autocomplete="off" id="Name" placeholder="{{ site.data.settings.contact-name.placeholder }}" data-error="{{ site.data.settings.contact-name.data-error }}"
-              required>
+            <input type="text" class="form-control" name="Name" autocomplete="off" id="Name" placeholder="{{ site.data.settings.contact-name.placeholder }}"
+              data-error="{{ site.data.settings.contact-name.data-error }}" required>
             <div class="help-block with-errors"></div>
           </div>
         </div>
         <div class="col-md-6">
           <div class="form-group">
-            <input type="email" class="form-control" name="Email" autocomplete="off" id="email" placeholder="{{ site.data.settings.contact-email.placeholder }}" data-error="{{ site.data.settings.contact-email.data-error }}"
-              required>
+            <input type="email" class="form-control" name="Email" autocomplete="off" id="email" placeholder="{{ site.data.settings.contact-email.placeholder }}"
+              data-error="{{ site.data.settings.contact-email.data-error }}" required>
             <div class="help-block with-errors"></div>
           </div>
         </div>
       </div>
       <div class="row">
         <div class="col-md-12">
-          <div class="form-group checkboxs">
-            <div class="contact-checkbox">
-              <div class="sub-header">
-                {{ site.data.settings.contact-packages-header }}
-              </div>
-              <div class="contact-checkbox-primary">
-                {% for item in site.data.settings.contact-packages %}
-                <div class="contact-checkbox-primary">
-                  <input type="checkbox" name="{{ item.name }}" id="checkbox{{ item.checkbox-number }}" {{ item.checked}}/>
-                  <label for="checkbox{{ item.checkbox-number }}">{{ item.description }}
-                  </label>
-                </div>{% endfor %}
-              </div>
+          <div class="form-group">
+            <div class="sub-header">Would you like to pick a package?</div>
+            <div class="radio radio-custom radio-inline">
+              <input type="radio" id="inlineRadio1" value="option1" name="radioInline">
+              <label for="inlineRadio1">Yes.</label>
             </div>
+            <div class="radio radio-custom radio-inline">
+              <input type="radio" id="inlineRadio2" value="option" name="radioInline" checked="">
+              <label for="inlineRadio2">No</label>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <div class="form-group">
+            <div class="sub-header">
+              {{ site.data.settings.contact-packages-header }}
+            </div>
+            {% for item in site.data.settings.contact-packages %}
+            <div class="checkbox checkbox-custom">
+              <input type="checkbox" name="{{ item.name }}" id="checkbox{{ item.checkbox-number }}" {{ item.checked}}>
+              <label for="checkbox{{ item.checkbox-number }}">{{ item.description }}
+              </label>
+            </div>
+            {% endfor %}
           </div>
         </div>
       </div>

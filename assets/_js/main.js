@@ -32,7 +32,7 @@ $(document).ready(function () {
     $("#cookieConsent").fadeOut(200);
   });
 });
-
+// YouTube Thumbnail/VIdeo
 (function () {
 
   var youtube = document.querySelectorAll(".youtube");
@@ -84,5 +84,12 @@ $(document).ready(function () {
     $(this).removeClass("active");
   }
   $(this).addClass("active");
+
+});
+// Contact form conditional
+$(document).ready(function () {
+
+  var contactform = false;
+
 
 });
