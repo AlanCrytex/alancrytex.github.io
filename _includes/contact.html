@@ -44,7 +44,7 @@
                 {{ site.data.settings.contact-packages-header }}
               </div>
               {% for item in site.data.settings.contact-packages %}
-              <div class="checkbox checkbox-custom">
+              <div class="checkbox {{ item.spacing }} checkbox-custom">
                 <input type="checkbox" name="{{ item.name }} packages" id="checkbox{{ item.checkbox-number }}" {{ item.checked}}>
                 <label for="checkbox{{ item.checkbox-number }}">{{ item.description }}
                 </label>

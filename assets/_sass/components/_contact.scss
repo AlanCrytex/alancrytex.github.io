@@ -42,7 +42,7 @@
 
     label {
         font-family: $main-font;
-        font-size: 1.10em;
+        font-size: 1.15em;
         color: #000000;
     }
 
@@ -90,7 +90,9 @@
 
 .checkbox {
     padding-left: 20px;
-
+    &.spacing {
+      padding-bottom: 15px;
+    }
     label {
         display: inline-block;
         position: relative;
