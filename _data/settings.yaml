@@ -25,9 +25,9 @@ about-text:
   sub-header: Filmmaker . Director . Motion Designer .VFX Editor
 
 about:
- - 'Hello. My name is Alan and I am known by the name. My full persona name is "Alan Crytex". I am a freelance VFX Editor and I have several years of experiences, working alone and with clients.'
- - 'My contents are heavily based on Motion Graphics and Live-Action and I tend to go onto random routes making some obscure videos.'
- - 'I am trying my best to improve my work and at the end produced some visually appealing projects for myself and for the clients who are interested working with me!'
+ - 'Hello. I am a freelance VFX & Motion Graphics Artist and I have several years of experiences, working alone and with clients.'
+ - 'My contents are heavily based on Motion Graphics and Live-Action and I tend to go onto random routes producing some obscure videos.'
+ - 'I am trying my best to improve my work and will be making some visually impressed videos for myself and for the clients who are interested working with me!'
 
 #-------------------------------
 # Examples
@@ -79,7 +79,7 @@ contact-packages-header: Which package do you want?
 
 contact-packages:
   - {checkbox-number: '1', spacing: spacing ,name: basic-videos-option, description: 'Basic Package - If you ever need subtitling, some text work or in general simpler effects for a music video, the price is $10 per min! ($6/hr rate)', checked: checked }
-  - {checkbox-number: '2', spacing: spacing ,name: advanced-videos-option, description: 'Advanced Package - I will be helping you produce a music video that is strongly based on some Motion Graphics, Typography, 3D Camera Work, Color Grading and much more. It depends on your approach, it can go $60 per min ($10/hr rate)', checked: }
+  - {checkbox-number: '2', spacing: spacing ,name: advanced-videos-option, description: 'Advanced Package - I will be helping you produce a music video that is strongly based on some Motion Graphics, Typography, 3D Camera Work, Color Grading and much more. It depends on your approach, it can go $50 per min ($10/hr rate)', checked: }
   - {checkbox-number: '3', spacing:  ,name: baschorusc-videos-option, description: 'Chorus MV Package - It would be on a fixed number which is $35 per min!', checked: }
 
 contact-messages:
