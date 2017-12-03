@@ -1,7 +1,7 @@
 <!-- work gallery -->
-<div class="container work" id="work">
+<div class="container-fluid work" id="work">
   <div class="row">
-    <div class="gallery col-lg-12 col-md-12 col-sm-12 col-xs-12">
+    <div class="gallery col-md-12">
       <h1 class="title text-center">Past works</h1>
     </div>
     <div align="center" class="work_filter">
@@ -10,8 +10,9 @@
     </div>
     <br/>
   </div>
+
   {% for item in site.data.settings.work_gallery-work %}
-  <div class="work_gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter {{ item.fliter }}">
+  <div class="work_gallery_product col-md-12 col-sm-6 col-md-4 filter {{ item.fliter }}">
     <!-- Video wrapper -->
     <div class="youtube" data-embed="{{ item.video-id }}">
       <!-- the "play" button -->
