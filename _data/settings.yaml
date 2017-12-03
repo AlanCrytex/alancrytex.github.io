@@ -8,6 +8,7 @@ menu:
   - {title: Examples, url: '#examples'}
   - {title: Work, url: '/work/'}
   - {title: Contact, url: '#contact'}
+
 #-------------------------------
 # SEO Section
 
@@ -81,14 +82,9 @@ contact-packages:
   - {checkbox-number: '2', name: advanced-videos-option, description: 'Advanced Package - I will be helping you produce a music video that is strongly based on some Motion Graphics, Typography, 3D Camera Work, Color Grading and much more. It depends on your approach, it can go $60 per min ($10/hr rate)', checked: }
   - {checkbox-number: '3', name: baschorusc-videos-option, description: 'Chorus MV Package - It would be on a fixed number which is $35 per min!', checked: }
 
-contact-details:
-  header: Any more details or info you want to add?
-  name: Details
-  placeholder: Details
-
-contact-message:
-  name: Message
-  placeholder: Message
+contact-messages:
+  name: Messages
+  placeholder: Messages
 
 #------------------------------
 # Social Icons and URls

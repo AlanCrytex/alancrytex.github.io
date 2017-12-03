@@ -61,8 +61,8 @@
 }
 
 #examples {
-    padding-top: 38px;
-    padding-bottom: 38px;
+    padding-top: $sectionSpacing-main;
+    padding-bottom: $sectionSpacing-main;
 }
 
 .examples {
@@ -70,7 +70,7 @@
         font-family: $main-font;
         color: $brand-color;
         font-size: 2.25em;
-        padding-bottom: 8px;
+        padding-bottom: $sectionSpacing-header;
     }
 }
 

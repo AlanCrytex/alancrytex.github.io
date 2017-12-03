@@ -45,6 +45,18 @@
         font-size: 1.10em;
         color: #000000;
     }
+
+    .package-qustion {
+        padding-top: $sectionSpacing-main-alt;
+    }
+
+    .package-qustion, .packages {
+        padding-top: $sectionSpacing-main-alt;
+
+        .sub-header {
+            padding-bottom: $sectionSpacing-header;
+        }
+    }
 }
 
 .form-control {
@@ -356,7 +368,7 @@
         font-family: $main-font;
         color: $brand-color;
         font-size: 2.15em;
-        padding-bottom: 8px;
+        padding-bottom: $sectionSpacing-header;
     }
 
     .sub-header {
@@ -368,6 +380,6 @@
 
 #contact {
     background-color: $sectionBackground-light;
-    padding-top: 38px;
-    padding-bottom: 38px;
+    padding-top: $sectionSpacing-main;
+    padding-bottom: $sectionSpacing-main;
 }

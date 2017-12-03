@@ -6,7 +6,7 @@
         font-family: $main-font;
         font-size: 2em;
         color: #ffffff;
-        padding-bottom: 8px;
+        padding-bottom: $sectionSpacing-header;
     }
 
     .sub_header {
@@ -37,8 +37,8 @@
 
 #about {
     background-color: $sectionBackground-dark;
-    padding-top: 38px;
-    padding-bottom: 38px;
+    padding-top: $sectionSpacing-main;
+    padding-bottom: $sectionSpacing-main;
 }
 
 // .clouds {

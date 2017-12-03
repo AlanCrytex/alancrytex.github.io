@@ -12,7 +12,7 @@
         color: $brand-color;
         font-weight: 500;
         margin: 0px;
-        padding-bottom: 8px;
+        padding-bottom: $sectionSpacing-header;
     }
 
     .work_filter {
@@ -58,7 +58,7 @@
 }
 
 #work {
-    padding-top: 38px;
+    padding-top: $sectionSpacing-main;
     padding-left: 100px;
     padding-right: 100px;
 }
