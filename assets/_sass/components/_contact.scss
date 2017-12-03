@@ -48,11 +48,14 @@
 
     .package-qustion {
         padding-top: $sectionSpacing-main-alt;
+        padding-bottom: $sectionSpacing-main-alt;
+    }
+
+    .packages {
+        padding-bottom: $sectionSpacing-main-alt;
     }
 
     .package-qustion, .packages {
-        padding-top: $sectionSpacing-main-alt;
-
         .sub-header {
             padding-bottom: $sectionSpacing-header;
         }
