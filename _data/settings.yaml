@@ -50,7 +50,9 @@ work_gallery-fliter:
 #Make sure  put images in the /img/work/thumbnails  folder.
 work_gallery-work:
 - {fliter: 'clients',  video-id: '5y7OYoBUYm4'}
+- {fliter: 'personal',  video-id: 'DqP6lLupcdI'}
 - {fliter: 'clients',  video-id: 'FSeDApAmvVY'}
+- {fliter: 'personal',  video-id: 'qeTs05gFkT0'}
 - {fliter: 'clients',  video-id: 'x3WoE5XLFmo'}
 - {fliter: 'clients',  video-id: 'mu0SXVGkiP4'}
 - {fliter: 'clients',  video-id: 'MFHTw0XON5k'}
@@ -59,9 +61,7 @@ work_gallery-work:
 - {fliter: 'personal',  video-id: 'tvvBZUwAcbo'}
 - {fliter: 'personal',  video-id: 'e8wsfvgAG0A'}
 - {fliter: 'personal',  video-id: '7CJwb8FqaMs'}
-- {fliter: 'personal',  video-id: 'qeTs05gFkT0'}
 - {fliter: 'personal',  video-id: '2VHgpHHtW_U'}
-- {fliter: 'personal',  video-id: 'DqP6lLupcdI'}
 
 #------------------------------
 # Contact
