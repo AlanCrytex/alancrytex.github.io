@@ -35,7 +35,7 @@ about:
 examples:
   - {video-id: 5y7OYoBUYm4}
   - {video-id: Yj2kzgBri0s}
-  - {video-id: qeTs05gFkT0}
+  - {video-id: PQVC68PC5Sk}
   - {video-id: x3WoE5XLFmo}
 
 #-------------------------------
@@ -50,12 +50,13 @@ work_gallery-fliter:
 #Make sure  put images in the /img/work/thumbnails  folder.
 work_gallery-work:
 - {fliter: 'clients',  video-id: '5y7OYoBUYm4'}
+- {fliter: 'personal',  video-id: 'PQVC68PC5Sk'}
 - {fliter: 'personal',  video-id: 'DqP6lLupcdI'}
-- {fliter: 'clients',  video-id: 'FSeDApAmvVY'}
 - {fliter: 'personal',  video-id: 'qeTs05gFkT0'}
 - {fliter: 'clients',  video-id: 'x3WoE5XLFmo'}
 - {fliter: 'clients',  video-id: 'mu0SXVGkiP4'}
 - {fliter: 'clients',  video-id: 'MFHTw0XON5k'}
+- {fliter: 'clients',  video-id: 'FSeDApAmvVY'}
 - {fliter: 'clients',  video-id: 'Yj2kzgBri0s'}
 - {fliter: 'personal',  video-id: 'pQN6LOOqJ7g'}
 - {fliter: 'personal',  video-id: 'tvvBZUwAcbo'}
