@@ -68,7 +68,7 @@ work_gallery-work:
 #------------------------------
 # Contact
 
-contact-header: Contact me - Click "Yes" to view the prices!
+contact-header: Contact me
 
 contact-name:
   data-error: Pleaase enter your name.
