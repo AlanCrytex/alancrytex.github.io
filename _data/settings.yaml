@@ -93,7 +93,7 @@ contact-messages:
 # Social Icons and URls
 
 social:
-  - {icon: 'fa-youtube-play', class: 'youtube-color youtube-color_border', url: 'https://www.youtube.com/AlanCrytex'}
+  - {icon: 'fa-youtube', class: 'youtube-color youtube-color_border', url: 'https://www.youtube.com/AlanCrytex'}
   - {icon: 'fa-twitter', class: 'twitter-color twitter-color_border', url: 'https://twitter.com/Alanj2007Games'}
 
 social-url:
