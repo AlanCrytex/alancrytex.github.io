@@ -44,7 +44,7 @@
                 {{ site.data.settings.contact-packages-header }}
               </div>
               {% for item in site.data.settings.contact-packages %}
-              <div class="checkbox {{ item.spacing }} checkbox-custom">
+              <div class="checkbox {% if forloop.last == false %}spacing{% endif %} checkbox-custom">
                 <input type="checkbox" name="{{ item.name }} packages" id="checkbox{{ item.checkbox-number }}" {{ item.checked}}>
                 <label for="checkbox{{ item.checkbox-number }}">{{ item.description }}
                 </label>
@@ -53,18 +53,17 @@
             </div>
           </div>
         </div>
-      </div>
-      <div class="row message">
-        <div class="col-md-12">
-          <div class="form-group">
-            <textarea class="form-control textarea" rows="3" name="{{ site.data.settings.contact-messages.name }}" id="Details" placeholder="{{ site.data.settings.contact-messages.placeholder }}"></textarea>
+        <div class="row message">
+          <div class="col-md-12">
+            <div class="form-group">
+              <textarea class="form-control textarea" rows="3" name="{{ site.data.settings.contact-messages.name }}" id="Details" placeholder="{{ site.data.settings.contact-messages.placeholder }}"></textarea>
+            </div>
           </div>
-        </div>
-        <div class="col-md-3 col-md-offet-9 button">
-          <button type="submit" class="btn  btn-block main-btn">Send a message</button>
+          <div class="col-md-3 col-md-offet-9 button">
+            <button type="submit" class="btn  btn-block main-btn">Send a message</button>
+          </div>
         </div>
       </div>
   </div>
-</div>
-</form>
+  </form>
 </div>
