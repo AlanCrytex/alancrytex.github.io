@@ -35,7 +35,7 @@ about:
 examples:
   - {video-id: 5y7OYoBUYm4}
   - {video-id: Yj2kzgBri0s}
-  - {video-id: PQVC68PC5Sk}
+  - {video-id: ZFOS4Z2NNac}
   - {video-id: x3WoE5XLFmo}
 
 #-------------------------------
@@ -81,9 +81,9 @@ contact-email:
 contact-packages-header: Which package do you want? (Prices are vary depending your approach)
 
 contact-packages:
-  - {checkbox-number: '1', spacing: spacing ,name: basic-videos-option, description: 'Basic Package - If you ever need subtitling, some text work or in general simpler effects for a music video, the price is $18 per min! or ($6/hr rate)', checked: checked }
-  - {checkbox-number: '2', spacing: spacing ,name: advanced-videos-option, description: 'Advanced Package - I will be helping you produce a music video that is strongly based on some Motion Graphics, Typography, 3D Camera Work, Color Grading and much more. It can go up to $60 per min! or ($12/hr rate)', checked: }
-  - {checkbox-number: '3', spacing:  ,name: baschorusc-videos-option, description: 'Chorus MV Package [Youtaite] - It would be on a fixed number which is $35 per min!', checked: }
+  - {checkbox-number: '1', spacing: spacing ,name: basic-videos-option, description: 'Basic Package - If you ever need subtitling, some text work or in general simpler effects for a music video, the price is up to $18 per min!', checked: checked }
+  - {checkbox-number: '2', spacing: spacing ,name: advanced-videos-option, description: 'Advanced Package - I will be helping you produce a music video that is strongly based on some Motion Graphics, Typography, 3D Camera Work, Color Grading and much more. It can go up to $60 per min!', checked: }
+  - {checkbox-number: '3', spacing:  ,name: baschorusc-videos-option, description: 'Standard Lyric Video Package - This can be customize but the average is $36 per min. Contact and tell the budget, deadline, the music if possible!', checked: }
 
 contact-messages:
   name: Messages
