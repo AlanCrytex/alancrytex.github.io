@@ -16,24 +16,24 @@
   <meta name="twitter:title" content="{{ site.title }} - {{ page.title }}">
   <meta name="twitter:description" content="{{ site.description }}">
   <meta name="twitter:creator" content="{{ site.data.settings.seo.twitter-creator }}">
-  <meta name="twitter:image" content="{{ "/assets/images/logos/logo.png" | absolute_url }}">
+  <meta name="twitter:image" content="{{ site.url }}{{ site.baseurl }}/assets/images/logos/logo.png">
   <!-- Open Graph data -->
   <meta property="og:title" content="{{ site.title }} - {{ page.title }}" />
   <meta property="og:site_name" content="{{ site.title }}" />
   <meta property="og:type" content="{{ site.data.settings.seo.type }}" />
-  <meta property="og:url" content="{{ "" | absolute_url }}"/>
-  <meta property="og:image" content="{{ "/assets/images/logos/logo.png" | absolute_url }}"/>
+  <meta property="og:url" content="{{ site.url }}{{ site.baseurl }}" />
+  <meta property="og:image" content="{{ site.url }}{{ site.baseurl }}/assets/images/logos/logo.png" />
   <meta property="og:description" content="{{ site.description }}" />
   <!-- Icon and Meta  -->
   <meta name="application-name" content="{{ site.title }}" />
-  <meta name="msapplication-square70x70logo" content="{{ "/ms-icon-70x70.png" | absolute_url }}"/>
-  <meta name="msapplication-square150x150logo" content="{{ "/ms-icon-150x150.png" | absolute_url }}"/>
-  <meta name="msapplication-square310x310logo" content="{{ "/ms-icon-310x310/.png"| absolute_url }}"/>
+  <meta name="msapplication-square70x70logo" content="{{ site.url }}{{ site.baseurl }}/ms-icon-70x70.png" />
+  <meta name="msapplication-square150x150logo" content="{{ site.url }}{{ site.baseurl }}/ms-icon-150x150.png" />
+  <meta name="msapplication-square310x310logo" content="{{ site.url }}{{ site.baseurl }}/ms-icon-310x310/.png" />
   <meta name="msapplication-TileColor" content="#FAFAFA">
   <meta name="theme-color" content="#FAFAFA">
-  <link rel="shortcut icon" href="{{ "/favicon.ico" | absolute_url }}" type="image/x-icon">
-  <link rel="apple-touch-icon" sizes="57x57" href="{{ "/apple-icon-57x57.png" | absolute_url }}">
-  <link rel="apple-touch-icon" sizes="60x60" href="{{"/apple-icon-60x60.png" | absolute_url }}">
+  <link rel="shortcut icon" href="{{ site.url }}{{ site.baseurl }}/favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" sizes="57x57" href="{{ site.url }}{{ site.baseurl }}/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="{{ site.url }}{{ site.baseurl }}/apple-icon-60x60.png">
   <link rel="apple-touch-icon" sizes="72x72" href="{{ site.url }}{{ site.baseurl }}/apple-icon-72x72.png">
   <link rel="apple-touch-icon" sizes="76x76" href="{{ site.url }}{{ site.baseurl }}/apple-icon-76x76.png">
   <link rel="apple-touch-icon" sizes="120x120" href="{{ site.url }}{{ site.baseurl }}/apple-icon-120x120.png">
@@ -49,9 +49,9 @@
 
   <!-- Frameworks -->
   <!-- Font Awsome-->
-  <link rel="stylesheet" type="text/css" href="{{ "/assets/lib/font-awesome/css/fontawesome-all.min.css" | absolute_url }}">
+  <link rel="stylesheet" type="text/css" href="{{ site.url }}{{ site.baseurl }}/assets/lib/font-awesome/css/fontawesome-all.min.css">
   <!--Bootstrap -->
-  <link rel="stylesheet" type="text/css" href="/assets/lib/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="{{ site.url }}{{ site.baseurl }}/assets/lib/bootstrap/css/bootstrap.min.css">
   <!-- EU Cookie -->
   <link rel="stylesheet" type="text/css" href="{{ site.url }}{{ site.baseurl }}/assets/lib/cookieconsent/css/cookieconsent.min.css">
   <script type="text/javascript" src="{{ site.url }}{{ site.baseurl }}/assets/lib/cookieconsent/js/cookieconsent.min.js"></script>
