@@ -34,9 +34,9 @@ about:
 
 examples:
   - {video-id: 5y7OYoBUYm4}
-  - {video-id: Yj2kzgBri0s}
+  - {video-id: 8u2C9SoXm1A}
   - {video-id: ZFOS4Z2NNac}
-  - {video-id: x3WoE5XLFmo}
+  - {video-id: mR1WF9cLr7Y}
 
 #-------------------------------
 # works Gallery Section
@@ -49,6 +49,7 @@ work_gallery-fliter:
 
 #Make sure  put images in the /img/work/thumbnails  folder.
 work_gallery-work:
+- {fliter: 'clients',  video-id: 'mR1WF9cLr7Y'}
 - {fliter: 'clients',  video-id: '5y7OYoBUYm4'}
 - {fliter: 'clients',  video-id: 'ZFOS4Z2NNac'}
 - {fliter: 'personal',  video-id: 'DqP6lLupcdI'}
@@ -56,6 +57,7 @@ work_gallery-work:
 - {fliter: 'clients',  video-id: 'x3WoE5XLFmo'}
 - {fliter: 'clients',  video-id: 'mu0SXVGkiP4'}
 - {fliter: 'clients',  video-id: 'MFHTw0XON5k'}
+- {fliter: 'personal',  video-id: '8u2C9SoXm1A'}
 - {fliter: 'clients',  video-id: 'FSeDApAmvVY'}
 - {fliter: 'clients',  video-id: 'Yj2kzgBri0s'}
 - {fliter: 'personal',  video-id: 'fw_A7r4zvqw'}
