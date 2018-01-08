@@ -36,7 +36,7 @@ examples:
   - {video-id: 5y7OYoBUYm4}
   - {video-id: 8u2C9SoXm1A}
   - {video-id: ZFOS4Z2NNac}
-  - {video-id: mR1WF9cLr7Y}
+  - {video-id: qtx6dGQuWhk}
 
 #-------------------------------
 # works Gallery Section
@@ -53,6 +53,7 @@ work_gallery-work:
 - {fliter: 'clients',  video-id: '5y7OYoBUYm4'}
 - {fliter: 'clients',  video-id: 'ZFOS4Z2NNac'}
 - {fliter: 'personal',  video-id: 'DqP6lLupcdI'}
+- {fliter: 'clients',  video-id: 'qtx6dGQuWhk'}
 - {fliter: 'personal',  video-id: 'qeTs05gFkT0'}
 - {fliter: 'clients',  video-id: 'x3WoE5XLFmo'}
 - {fliter: 'clients',  video-id: 'mu0SXVGkiP4'}
