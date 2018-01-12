@@ -5,7 +5,6 @@
 
 menu:
   - {title: Home, url: '/'}
-  - {title: Examples, url: '#examples'}
   - {title: Work, url: '/work/'}
   - {title: Contact, url: '#contact'}
 
@@ -35,7 +34,7 @@ about:
 examples:
   - {video-id: 5y7OYoBUYm4}
   - {video-id: 8u2C9SoXm1A}
-  - {video-id: ZFOS4Z2NNac}
+  - {video-id: s8KIyuWK4JQ}
   - {video-id: mR1WF9cLr7Y}
 
 #-------------------------------
@@ -51,7 +50,7 @@ work_gallery-fliter:
 work_gallery-work:
 - {fliter: 'clients',  video-id: 'mR1WF9cLr7Y'}
 - {fliter: 'clients',  video-id: '5y7OYoBUYm4'}
-- {fliter: 'clients',  video-id: 'ZFOS4Z2NNac'}
+- {fliter: 'personal',  video-id: 's8KIyuWK4JQ'}
 - {fliter: 'personal',  video-id: 'DqP6lLupcdI'}
 - {fliter: 'personal',  video-id: 'qeTs05gFkT0'}
 - {fliter: 'clients',  video-id: 'x3WoE5XLFmo'}
@@ -79,6 +78,8 @@ contact-name:
 contact-email:
   data-error: Please make sure your email is either vaild or is filled in.
   placeholder: E-mail *
+
+contact-do-you-want: Would you like a package.
 
 contact-packages-header: Which package do you want?
 
