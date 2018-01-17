@@ -82,7 +82,7 @@
       "@type": "Organization",
       "name": "{{ site.title }}",
       "mainEntityOfPage": "{{ site.data.settings.seo.url }}/",
-      "url": "{{ site.subpath }}/",
+      "url": "{{ site.data.settings.seo.url }}/",
         "sameAs": [{% for item in site.data.settings.social %}
           "{{ item.url }}" {% if forloop.last == false %},{% endif %} {% endfor %}
         ],
