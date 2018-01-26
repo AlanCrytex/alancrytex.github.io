@@ -1,7 +1,11 @@
 // -----------------------------------------------------------------------------
 // This file contains all styles related to the work component.
 // -----------------------------------------------------------------------------
-.work {
+#gallery {
+    padding-top: $sectionSpacing-main;
+    padding-left: 100px;
+    padding-right: 100px;
+
     .gallery {
         display: inline-block;
     }
@@ -15,11 +19,11 @@
         padding-bottom: $sectionSpacing-header;
     }
 
-    .work_filter {
+    .filter {
         padding-bottom: 10px;
     }
 
-    .work_filter-button {
+    .filter-button {
         font-size: 1.15em;
         border: 1px solid $brand-color-alt;
         border-radius: 5px;
@@ -38,7 +42,7 @@
 
     .btn-default {
         &:active {
-            .work_gallery_filter-button {
+            .filter-button {
                 &:active {
                     background-color: $brand-color-alt;
                     color: #ffffff;
@@ -47,7 +51,7 @@
         }
     }
 
-    .work_gallery_product {
+    .video {
         margin-bottom: 30px;
 
         a > img:hover {
@@ -55,12 +59,27 @@
             transition: all 1s;
         }
     }
-}
 
-#work {
-    padding-top: $sectionSpacing-main;
-    padding-left: 100px;
-    padding-right: 100px;
+    .fancybox-nav {
+        width: 60px;
+    }
+
+    .fancybox-nav span {
+        visibility: visible;
+        opacity: 0.5;
+    }
+
+    .fancybox-nav:hover span {
+        opacity: 1;
+    }
+
+    .fancybox-next {
+        right: -60px;
+    }
+
+    .fancybox-prev {
+        left: -60px;
+    }
 }
 
 @media (max-width: 768px) {

@@ -41,27 +41,27 @@
     padding-bottom: $sectionSpacing-main;
 }
 
-.clouds {
-    width: 200x;
-    height: 300px;
-    position: absolute;
-}
+// .clouds {
+//     width: 200x;
+//     height: 300px;
+//     position: absolute;
+// }
 
-.cloud1 {
-    top: 80px;
-    z-index: 100;
-    fill: #eee;
+// .cloud1 {
+//     top: 80px;
+//     z-index: 100;
+//     fill: #eee;
 
-    /* Animation shorthand syntax order: name, duration, timing-function, delay, iteration-count, direction, fill-mode
-    animation: move 20s linear infinite;
-}
+//     /* Animation shorthand syntax order: name, duration, timing-function, delay, iteration-count, direction, fill-mode
+//     animation: move 20s linear infinite;
+// }
 
-@keyframes move {
-    from {
-        -webkit-transform: translateX(-400px);
-    }
+// @keyframes move {
+//     from {
+//         -webkit-transform: translateX(-400px);
+//     }
 
-    to {
-        -webkit-transform: translateX(1350px);
-    }
-}
+//     to {
+//         -webkit-transform: translateX(1350px);
+//     }
+// }
