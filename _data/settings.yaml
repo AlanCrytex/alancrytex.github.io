@@ -5,7 +5,7 @@
 
 menu:
   - {title: Home, url: '/'}
-  - {title: Work, url: '/work/'}
+  - {title: More Examples, url: '/examples/'}
   - {title: Contact, url: '#contact'}
 
 #-------------------------------
