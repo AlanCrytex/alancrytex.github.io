@@ -2,44 +2,51 @@
 // This file contains all application-wide Sass variables.
 // -----------------------------------------------------------------------------
 // Fonts
-$main-font: 'Ubuntu', sans-serif;
-$second-font: 'Titillium Web', sans-serif;
+$main-font: "Ubuntu", sans-serif;
+$second-font: "Titillium Web", sans-serif;
 $legal-font: "Times New Roman", Times, serif;
+
 // Social Icons Color
 $twitter-color: #1da1f2;
 $twitch-color: #6441a5;
 $youtube-color: #cd201f;
 $github-color: #333;
 $google-plus-color: #dd4b39;
-$facebook-color:#3b5998;
+$facebook-color: #3b5998;
 $spotify-color: #1db954;
 $behance-color: #1769ff;
 $social-icon: #ffffff;
+
 // Footer Text
-$footer-color: #ffffff;
+$footer-color: #000000;
 $footer-color_link: #f2f2f2;
-$footer-background: #35445E;
+$footer-background: #ffffff;
+
 // Footer Legal
 $footer-color-legal: #000000;
 $footer-color_link-legal: #3b3b3b;
+
 // Brand Color
 $brand-color: #0b2c48;
 $brand-color-alt: #354f5e;
 $brand-color-alt-2: #cacbcb;
+
 // Menu Links
-$nav-bgDefault      : #e9f1ff;
-$nav-bgHighlight    : #e9f1ff;
-$nav-colDefault     : #354f5e;
-$nav-colHighlight   : #0b2c48;
-$nav-dropdown       : true;
+$nav-bgDefault: #354f5e;
+$nav-bgHighlight: #0b2c48;
+$nav-colDefault: #e9f1ff;
+$nav-colHighlight: #e9f1ff;
+$nav-dropdown: true;
+
 // Buttons
 $button_background_effect_font: #ffffff;
 $button_background_effect: #35445E;
+
 // Section Background
 $sectionBackground-light: #e9f1ff;
 $sectionBackground-dark: #35445E;
+
 // Section Spacing
 $sectionSpacing-main: 38px;
 $sectionSpacing-main-alt: 19px;
 $sectionSpacing-header: 8px;
-

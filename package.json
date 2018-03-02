@@ -51,5 +51,7 @@
     "url": "https://github.com/AlanCrytex/alancrytex.github.io/issues"
   },
   "homepage": "https://github.com/AlanCrytex/alancrytex.github.io",
-  "dependencies": {}
+  "dependencies": {
+    "npm": "^5.7.1"
+  }
 }

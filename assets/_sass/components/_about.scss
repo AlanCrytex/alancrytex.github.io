@@ -5,6 +5,7 @@
     .header {
         font-family: $main-font;
         font-size: 2em;
+        font-weight: 700;
         color: #ffffff;
         padding-bottom: $sectionSpacing-header;
     }
@@ -36,7 +37,7 @@
 }
 
 #about {
-    background-color: $sectionBackground-dark;
+    background-color: $sectionBackground-light;
     padding-top: $sectionSpacing-main;
     padding-bottom: $sectionSpacing-main;
 }
