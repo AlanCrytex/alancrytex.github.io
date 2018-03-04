@@ -15,35 +15,35 @@
 
     .radio-custom input[type="radio"] {
         + label::after {
-            background-color: #ffffff;
+            background-color: $brand-color;
         }
 
         &:checked + label {
             &::before {
-                border-color: #ffffff;
+                border-color: $brand-color;
             }
 
             &::after {
-                background-color: #ffffff;
+                background-color: $brand-color;
             }
         }
     }
 
     .checkbox-custom input[type="checkbox"]:checked + label {
         &::before {
-            background-color: #ffffff;
-            border-color: #ffffff;
+            background-color: $brand-color;
+            border-color: $brand-color;
         }
 
         &::after {
-            color: #ffffff;
+            color: #fff;
         }
     }
 
     label {
         font-family: $main-font;
         font-size: 1.15em;
-        color: #ffffff;
+        color: #000000;
     }
 
     .package-qustion {
@@ -90,11 +90,9 @@
 
 .checkbox {
     padding-left: 20px;
-
     &.spacing {
-        padding-bottom: 15px;
+      padding-bottom: 15px;
     }
-
     label {
         display: inline-block;
         position: relative;
@@ -373,21 +371,20 @@
 .contact {
     .header {
         font-family: $main-font;
-        color: #ffffff;
-        font-weight: 700;
+        color: $brand-color;
         font-size: 2.15em;
         padding-bottom: $sectionSpacing-header;
     }
 
     .sub-header {
         font-family: $main-font;
-        color: #ffffff;
+        color: $brand-color-alt;
         font-size: 1.25em;
     }
 }
 
 #contact {
-    background-color: $sectionBackground-dark;
+    background-color: $sectionBackground-light;
     padding-top: $sectionSpacing-main;
     padding-bottom: $sectionSpacing-main;
 }
