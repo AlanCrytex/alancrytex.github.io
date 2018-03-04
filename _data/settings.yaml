@@ -51,9 +51,9 @@ contact-email:
   data-error: Please make sure your email is either vaild or is filled in.
   placeholder: E-mail *
 
-contact-do-you-want: Would you like a package.
+contact-do-you-want: Would you like to choose any package(s)? (If no then fill out the message box.)
 
-contact-packages-header: Which package do you want?
+contact-packages-header: Which package's would you like?
 
 contact-packages:
   - {checkbox-number: '1', name: basic-videos-option, description: 'Basic Package - If you ever need subtitling, some text work or in general simpler effects for a music video, the price is up to $18 per min!', checked: checked }
