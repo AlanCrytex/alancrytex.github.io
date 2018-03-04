@@ -168,18 +168,21 @@
 
 .navbar {
     margin-bottom: 0px;
+
     // border-bottom: 1px solid $brand-color-alt;
+    border-radius: 0;
 }
 
 .navbar-default .navbar-nav > li > a {
     font-family: $main-font;
-    font-size: 1.5em;
+    font-size: 1.25em;
 }
 
 .dropdown-menu > li > a {
     font-family: $main-font;
-    font-size: 1.5em;
+    font-size: 1.25em;
 }
+
 #navbar-primary .navbar-nav {
     width: 100%;
     text-align: center;

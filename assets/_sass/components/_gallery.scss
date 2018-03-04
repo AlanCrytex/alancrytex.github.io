@@ -1,5 +1,5 @@
 // -----------------------------------------------------------------------------
-// This file contains all styles related to the work component.
+// This file contains all styles related to the gallery`` component.
 // -----------------------------------------------------------------------------
 #gallery {
     padding-top: $sectionSpacing-main;
@@ -14,9 +14,9 @@
         font-size: 2em;
         font-family: $main-font;
         color: $brand-color;
-        font-weight: 500;
+        font-weight: 700;
         margin: 0px;
-        padding-bottom: $sectionSpacing-header;
+        padding-bottom: 12px;
     }
 
     .filter {
@@ -83,7 +83,7 @@
 }
 
 @media (max-width: 768px) {
-    #work {
+    #gallery {
         padding-left: 25px;
         padding-right: 25px;
     }

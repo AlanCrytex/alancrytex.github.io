@@ -5,21 +5,22 @@
     .header {
         font-family: $main-font;
         font-size: 2em;
-        color: #ffffff;
+        font-weight: 700;
+        color: $brand-color-alt;
         padding-bottom: $sectionSpacing-header;
     }
 
     .sub_header {
         font-family: $second-font;
         font-size: 1.45em;
-        color: #EBEBEB;
+        color: $brand-color-alt;
         font-style: italic;
     }
 
     .text {
         font-family: $second-font;
         font-size: 1.25em;
-        color: #EBEBEB;
+        color: #000000;
     }
 
     .container {
@@ -36,7 +37,7 @@
 }
 
 #about {
-    background-color: $sectionBackground-dark;
+    background-color: $sectionBackground-light;
     padding-top: $sectionSpacing-main;
     padding-bottom: $sectionSpacing-main;
 }
