@@ -33,10 +33,10 @@ about:
 # Examples
 
 examples:
-  - {video-id: 5y7OYoBUYm4}
-  - {video-id: 8u2C9SoXm1A}
-  - {video-id: s8KIyuWK4JQ}
-  - {video-id: mR1WF9cLr7Y}
+  - {video-id: n8SlDWH6nqg}
+  - {video-id: mkhzetDoXvE}
+  - {video-id: Cy4VTAKP4Ak}
+  - {video-id: 9qYptNeeWDw}
 
 #------------------------------
 # Contact
@@ -58,7 +58,7 @@ contact-packages-header: Which package's would you like?
 contact-packages:
   - {checkbox-number: '1', name: basic-videos-option, description: 'Basic Package - If you ever need subtitling, some text work or in general simpler effects for a music video, the price is up to $18 per min!', checked: checked }
   - {checkbox-number: '2', name: advanced-videos-option, description: 'Advanced Package - I will be helping you produce a music video that is strongly based on some Motion Graphics, Typography, 3D Camera Work, Color Grading and much more. It can go up to $60 per min!', checked: }
-  - {checkbox-number: '3', name: baschorusc-videos-option, description: 'Standard Lyric Video Package - This can be customize but the average is $36 per min. Contact and tell the budget, deadline, the music if possible!', checked: }
+  - {checkbox-number: '3', name: baschorusc-videos-option, description: 'Standard Lyric Video Package - This can be customize but the average is $42 per min. Contact and tell the budget, deadline, the music if possible!', checked: }
 
 contact-messages:
   name: Messages
