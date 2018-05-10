@@ -57,8 +57,8 @@ contact-packages-header: Which package's would you like?
 
 contact-packages:
   - {checkbox-number: '1', name: basic-videos-option, description: 'Basic Package - If you ever need subtitling, some text work or in general simpler effects for a music video, the price is up to $18 per min!', checked: checked }
-  - {checkbox-number: '2', name: advanced-videos-option, description: 'Advanced Package - I will be helping you produce a music video that is STRONGLY based on some Motion Graphics, Typography, 3D Camera Work, Color Grading and much more. It can go up to $80 per min! ➤ Example: https://youtu.be/n8SlDWH6nqg', checked: }
-  - {checkbox-number: '3', name: baschorusc-videos-option, description: 'Standard Lyric Video Package - This can be customize but the average is $42 per min. Contact and provide the budget, deadline, the music if possible! ➤ Example: https://youtu.be/ua-2VZ8nOnM', checked: }
+  - {checkbox-number: '2', name: advanced-videos-option, description: 'Advanced Package - I will be helping you produce full pledged music video that is STRONGLY based on some Motion Graphics, Typography, 3D Camera Work, Color Grading and much more. It can go up to $80 per min! ➤ Example: https://youtu.be/n8SlDWH6nqg', checked: }
+  - {checkbox-number: '3', name: baschorusc-videos-option, description: 'Standard Lyric Video Package - This can be customize but the average is $42 per min and it truly depends on how much complexity you are up for. Contact and provide the budget, deadline, the music so I can help determine the price! ➤ Example: https://youtu.be/ua-2VZ8nOnM', checked: }
 
 contact-messages:
   name: Messages
